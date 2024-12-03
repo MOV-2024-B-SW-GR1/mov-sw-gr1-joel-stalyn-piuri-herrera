@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661265159043",
+    "project_id": "mov-2024b-sw-gr1-piuri",
+    "storage_bucket": "mov-2024b-sw-gr1-piuri.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661265159043:android:cf4a3201610165f9c45cb6",
+        "android_client_info": {
+          "package_name": "com.example.sw2024bgr1_jsph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9o3YhEZCmU3t0GYA42pXfMksD0tqUSeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
