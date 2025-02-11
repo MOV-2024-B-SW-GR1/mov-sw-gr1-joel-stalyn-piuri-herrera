@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">A04_deber01</string>
+
+    <string name="add_tipo_transaccion">Agregar Tipo de Transacción</string>
+    <string name="add_cuenta_banco">Agregar Cuenta de Banco</string>
+</resources>
