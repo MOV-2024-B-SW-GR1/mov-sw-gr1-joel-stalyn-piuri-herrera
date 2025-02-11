@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddServicioActivity">
+
+    <!-- EditText para el nombre del servicio -->
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Servicio"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"/>
+
+    <!-- EditText para la plataforma -->
+    <EditText
+        android:id="@+id/editTextPlataforma"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Plataforma"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/editTextNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <!-- EditText para la duración -->
+    <EditText
+        android:id="@+id/editTextDuracion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Duración"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/editTextPlataforma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <!-- Botón para guardar el servicio -->
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Servicio"
+        app:layout_constraintTop_toBottomOf="@id/editTextDuracion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

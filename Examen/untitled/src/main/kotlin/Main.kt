@@ -208,7 +208,7 @@ inline fun <reified T> cargarDatos(lista: MutableList<T>, archivo: String) {
     }
 }
 
-fun guardarDatos(lista: List<Any>, archivo: String) {
+inline fun <reified T> guardarDatos(lista: List<T>, archivo: String) {
     val file = File(archivo)
     file.writeText(Json.encodeToString(lista))
 }
